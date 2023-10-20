@@ -5,7 +5,7 @@ import { Typography, Card, CardActions, CardContent, CardMedia } from "@mui/mate
 import BookingForm from "./BookingForm";
 
 const fetchHotel = async (id) => {
-	const response = await fetch(`https://booking-jfdongbb5-javlucky.vercel.app/hotels/${id}`);
+	const response = await fetch(`https://booking-app-git-master-javlucky.vercel.app/hotels/${id}`);
 	if (!response.ok) {
 		throw new Error("Network response was not ok");
 	}

@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 
 const fetchHotels = async () => {
-	const response = await fetch("https://booking-jfdongbb5-javlucky.vercel.app/hotels");
+	const response = await fetch("https://booking-app-git-master-javlucky.vercel.app/hotels");
 	if (!response.ok) {
 		console.error("Estado de la respuesta:", response.status);
 		throw new Error("Network response was not ok");
